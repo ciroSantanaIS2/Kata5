@@ -22,10 +22,6 @@ public class Person {
         this.web = web;
     }
 
-    Person() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     public String getFirstName() {
         return firstName;
     }
@@ -56,8 +52,5 @@ public class Person {
 
     public String getWeb() {
         return web;
-    }
-    
-    
-    
+    } 
 }
