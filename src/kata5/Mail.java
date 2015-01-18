@@ -17,7 +17,8 @@ class Mail {
     }
 
     String getMainDomain() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String[] split = address.split("\\.");
+        return split[split.length - 1];
     }
     
 }
