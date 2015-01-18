@@ -1,4 +1,4 @@
-package kata4;
+package kata5;
 
 public class HistogramBuilder<E> {
     
